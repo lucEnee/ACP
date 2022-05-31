@@ -74,8 +74,9 @@ def nuagePoints(file, variable1, variable2):
             x.append(int(ligne[variable1].value))      
             y.append(int(ligne[variable2].value))
         n += 1    
-    
-    matplotlib.pyplot.scatter(x, y, marker ="s", s=5)  
+
+    matplotlib.pyplot.subplots()
+    matplotlib.pyplot.scatter(x, y)  
     matplotlib.pyplot.title('Nuage de points')
     matplotlib.pyplot.xlabel(variableName1)
     matplotlib.pyplot.ylabel(variableName2)

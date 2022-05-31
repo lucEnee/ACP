@@ -113,7 +113,8 @@ def courbesRegression(file, column1, column2):
     columnName1 = columnName1.replace("/",".")
     columnName2 = columnName2.replace("/",".")
 
-    plt.plot(x, y)
+    plt.subplot()
+    plt.plot(x, y, 'r-')
     plt.savefig("./save-data/courbe-regression/courbe-"+ columnName1 + "-" + columnName2 +".png")
 
 """
