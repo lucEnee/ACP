@@ -1,2 +1,2 @@
-# acp-r
+# ACP
 Dépôt du devoir ACP réalisé en R
