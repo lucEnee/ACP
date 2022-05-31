@@ -1,2 +1,6 @@
 # ACP
-Dépôt du devoir ACP réalisé en R
+Dépôt du devoir ACP
+
+## Collaborateur
+- Luc ENEE
+- Ludovic Tronel
