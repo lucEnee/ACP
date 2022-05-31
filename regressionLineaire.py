@@ -110,8 +110,11 @@ def courbesRegression(file, column1, column2):
     x = numpy.arange(min(m),max(m))
     y = a*x+b
 
+    columnName1 = columnName1.replace("/",".")
+    columnName2 = columnName2.replace("/",".")
+
     plt.plot(x, y)
-    plt.savefig('./courbe-' + columnName1 + '-' + columnName2 + '.png')
+    plt.savefig("./save-data/courbe-regression/courbe-"+ columnName1 + "-" + columnName2 +".png")
 
 """
 generateAllCourbe : call courbeRegression and apply it to all the columns of a given file
